@@ -1,0 +1,128 @@
+/* Header */
+
+header.header{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../../img/hero-banner.jpg");
+    background-position: center 50%;
+    background-size: cover;
+    height: 105vh;
+}
+
+/* Elements first*/
+header.header>div.header-first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo*/
+header.header>div.header-first>div.first-logo{
+    width: 12%;
+}
+header.header>div.header-first>div.first-logo>img.logo-image{
+    width: 100%;
+}
+
+/* nav*/
+header.header>div.header-first>nav.first-nav>ul.nav-list{
+    display: flex;
+    gap: var(--space-md);
+}
+
+header.header>div.header-first>nav.first-nav>ul.nav-list>li.list-item>a.item-link{
+    color: var(--color-text-light);
+    transition: color .4s ease,
+                border-bottom .4s ease;
+}
+
+header.header>div.header-first>nav.first-nav>ul.nav-list>li.list-item>a.item-link:hover{
+    color: var(--color-primary);
+    border-bottom:1px solid var(--color-primary);
+}
+
+/* login*/
+header.header>div.header-first>div.first-login{
+    width: 10%;
+    background-color: var(--color-primary);
+    padding: var(--space-xs);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--border-radius-md);
+    transition: opacity .4s ease;
+}
+
+header.header>div.header-first>div.first-login:hover{
+    opacity: .8;
+}
+header.header>div.header-first>div.first-login>a.login-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xs);
+}
+
+
+header.header>div.header-first>div.first-login>a.login-link>div.link-image{
+    width: 20%;
+}
+header.header>div.header-first>div.first-login>a.login-link>div.link-image>img.icon-image{
+    width: 100%;
+}
+
+/* Eleements hero*/
+
+header.header>div.header-hero{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-md);
+}
+
+/* Hero header*/
+header.header>div.header-hero>div.hero-header{
+    width: 80%;
+}
+header.header>div.header-hero>div.hero-header>h1.header-title{
+    color: var(--color-text-light);
+}
+header.header>div.header-hero>div.hero-header>h1.header-title>span.title-light{
+    color: var(--color-primary);
+}
+
+header.header>div.header-hero>div.hero-header>hr.hero-line{
+    width: 80%;
+}
+
+/* Hero body*/
+
+header.header>div.header-hero>div.hero-body{
+    width: 65%;
+}
+
+header.header>div.header-hero>div.hero-body>p.body-paragraph{
+    color: var(--color-text-light);
+    line-height: var(--space-lg);
+    
+}
+
+/* Hero footer*/
+header.header>div.header-hero>div.hero-footer>button.footer-button{
+    background-color:transparent;
+    border: 1px solid var(--color-text-light);
+    padding: var(--space-sm);
+    color: var(--color-text-light);
+    border-radius: var(--border-radius-md);
+    transition: background-color .4s ease,
+                transform .2s ease;
+}
+header.header>div.header-hero>div.hero-footer>button.footer-button:hover{
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transform: scale(1.02);
+}
+
+/* Banner hero*/

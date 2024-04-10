@@ -1,0 +1,16 @@
+/* section fourth responsive*/
+
+@media (max-width:900px){
+
+    main.main>section.main-section-fourth>div.fourth-content{
+        flex-direction: column;
+    }
+    main.main>section.main-section-fourth>div.fourth-content>div.content-left,
+    main.main>section.main-section-fourth>div.fourth-content>div.content-right{
+        width: 100%;
+    }
+
+    main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card{
+        flex-basis:content;
+    }
+}

@@ -1,0 +1,11 @@
+/* section third responsive*/
+
+@media (max-width:900px){
+    main.main>section.main-section-third>div.third-content>div.content-image,
+    main.main>section.main-section-third>div.third-content>div.content-image:nth-child(3),
+    main.main>section.main-section-third>div.third-content>div.content-image:nth-child(6)
+    {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+}

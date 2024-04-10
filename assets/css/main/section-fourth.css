@@ -1,0 +1,127 @@
+/* section fourth contests*/
+
+/* section*/
+
+main.main>section.main-section-fourth{
+    margin-top: var(--space-md);
+    background-color: var(--second-light);
+    padding: var(--space-md);
+}
+
+/* section title */
+main.main>section.main-section-fourth>div.fourth-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--space-md);
+}
+
+/* fourth content*/
+main.main>section.main-section-fourth>div.fourth-content{
+    display: flex;
+}
+
+/* content left--------------------------------------------------------*/
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-left{
+    width: 76%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+}
+
+/* left cards*/
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card{
+    flex-basis: calc((100% - (var(--space-xl) + var(--space-md))) / 3);
+    padding-bottom: calc((var(--space-xl) - 3px));
+
+}
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    transition: transform .4s ease,
+    opacity .4s ease;
+    box-shadow: var(--shadow-light);
+    border-radius: var(--border-radius-md);
+}
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card:hover,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card:hover{
+    transform: scale(1.02);
+
+}
+
+/* card header*/
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card>div.card-header,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card>div.card-header{
+    height: 200px;
+}
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card>div.card-header>img,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card>div.card-header>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: var(--border-radius-md);
+    border-top-left-radius: var(--border-radius-md);
+
+}
+
+/* card body*/
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card>div.card-body,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card>div.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+}
+
+/* card footer*/
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card>div.card-footer,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card>div.card-footer{
+    padding: var(--space-md);
+}
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card>div.card-footer>button.footer-button,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card>div.card-footer>button.footer-button{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    padding: var(--space-xs);
+    border-radius: var(--border-radius-sm);
+    color: var(--color-primary);
+    transition: background-color .4s ease;
+}
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-left>article.left-card>div.card-footer>button.footer-button:hover,
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card>div.card-footer>button.footer-button:hover{
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    cursor: pointer;
+}
+
+
+
+
+/* content right--------------------------------------------------------*/
+main.main>section.main-section-fourth>div.fourth-content>div.content-right{
+    width: 24%;
+}
+
+/*right title */
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-title{
+    width: 40%;
+    margin-bottom: var(--space-md);
+}
+
+main.main>section.main-section-fourth>div.fourth-content>div.content-right>div.right-content>article.right-card{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+}

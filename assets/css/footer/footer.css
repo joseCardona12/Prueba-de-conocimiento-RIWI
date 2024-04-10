@@ -1,0 +1,59 @@
+/* footer*/
+
+footer.footer{
+    background: linear-gradient(rgba(25, 21, 255, 0.571),rgba(25, 21, 255, 0.571) );
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    padding: var(--space-md) var(--space-xl);
+}
+
+/* footer first------------------------------------------->*/
+footer.footer>div.footer-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* first left*/
+footer.footer>div.footer-first>div.first-left{
+    width: 35%;
+}
+
+/* first left logo*/
+footer.footer>div.footer-first>div.first-left>div.logo{
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-md);
+}
+
+footer.footer>div.footer-first>div.first-left>div.logo>img.logo-image{
+    color: red;
+}
+
+footer.footer>div.footer-first>div.first-left>div.logo>p.logo-paragraph{
+    font-weight: 600;
+    color: var(--color-text-light);
+}
+
+footer.footer>div.footer-first>div.first-left>div.left-paragraph>p.paragraph{
+    color: var(--color-text-light);
+}
+
+/* first left paragraph*/
+
+/* footer second*/
+footer.footer>div.footer-second{
+    display: flex;
+    justify-content: center;
+}
+
+/* first center */ 
+footer.footer>div.footer-first>nav.first-center>div.center-title>h3.title,
+footer.footer>div.footer-first>nav.first-center>ul.nav-list>li.list-item>a.item-link,
+footer.footer>div.footer-first>div.first-right>div.center-title>h3.title,
+footer.footer>div.footer-first>div.first-right>ul.nav-list>li.list-item>a.item-link,
+footer.footer>div.footer-second>p.second-paragraph{
+    color: var(--color-text-light);
+}

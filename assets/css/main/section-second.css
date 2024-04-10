@@ -1,0 +1,72 @@
+/* section second about us*/
+
+/* section*/
+main.main>section.main-section-second{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-light);
+    height: 90vh;
+}
+
+/* second left*/
+main.main>section.main-section-second>div.second-left{
+    height: 100%;
+    width: 40%;
+}
+
+main.main>section.main-section-second>div.second-left>img.left-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* second right*/
+
+main.main>section.main-section-second>div.second-right{
+    width: 60%;
+    height: 100%;
+    padding:  var(--space-sm) var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* second right header*/
+main.main>section.main-section-second>div.second-right>div.right-header>h2.header-title{
+    color: var(--color-primary);
+    font-weight: 100;
+}
+
+/* second right body */
+main.main>section.main-section-second>div.second-right>div.right-body>ul.body-list{
+    margin-top: var(--space-sm);
+    list-style:outside;
+    margin-left: var(--space-md);
+}
+
+/*second right footer */
+main.main>section.main-section-second>div.second-right>div.right-footer>button.footer-button{
+    width: 52%;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--border-radius-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    color: var(--color-text-light);
+    padding: var(--space-sm);
+    font-size: 1rem;
+    transition: opacity .5s ease;
+}
+
+main.main>section.main-section-second>div.second-right>div.right-footer>button.footer-button:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+main.main>section.main-section-second>div.second-right>div.right-footer>button.footer-button>div.button-icon{
+    width: 8%;
+}
+
+main.main>section.main-section-second>div.second-right>div.right-footer>button.footer-button>div.button-icon>img.icon-image{
+    width: 100%;
+}

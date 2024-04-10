@@ -1,0 +1,30 @@
+/* Header responsive */
+
+@media (max-width:900px){
+    header.header{
+        height: auto;
+    }
+
+
+    /* header first*/
+
+    header.header>div.header-first{
+        flex-direction: column;
+        gap: var(--space-md);
+        margin-bottom: var(--space-md);
+    }
+
+    /* header logo*/
+    header.header>div.header-first>div.first-logo{
+        width: 50%;
+    }
+
+    /* header login*/
+    header.header>div.header-first>div.first-login{
+        width: 50%;
+    }
+
+    header.header>div.header-hero>div.hero-header>h1.header-title{
+        font-size: 2.4rem;
+    }
+}

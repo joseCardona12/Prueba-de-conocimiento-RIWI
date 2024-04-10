@@ -1,0 +1,19 @@
+/* section second responsive*/
+
+@media (max-width:900px){
+    main.main>section.main-section-second{
+        height: auto;
+        flex-direction: column;
+    }
+
+    main.main>section.main-section-second>div.second-left,
+    main.main>section.main-section-second>div.second-right{
+        width: 100%;
+    }
+
+    main.main>section.main-section-second>div.second-right{
+        gap: var(--space-md);
+    }
+
+
+}

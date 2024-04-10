@@ -1,0 +1,56 @@
+/* section first services*/
+
+main.main>section.main-section-first{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    height: 260px;
+    padding: 0 var(--space-xl);
+}
+
+/*images*/
+
+main.main>section.main-section-first>div.first-image{
+    flex-basis: calc((100% - var(--space-xl) - 5px) / 3);
+    background: linear-gradient(to right, rgba);
+    background-position: center center;
+    background-size: cover;
+    border-radius: var(--border-radius-sm);
+    height: 85%;
+    margin-top: -15px;
+    transition: transform .4s ease;
+}
+
+main.main>section.main-section-first>div.first-image:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+main.main>section.main-section-first>div.image-one{
+    background-image: url("../../img/service-1.jpg");
+}
+
+main.main>section.main-section-first>div.image-two{
+    background-image: url("../../img/service-2.jpg");
+}
+
+main.main>section.main-section-first>div.image-three{
+    background-image: url("../../img/service-3.jpg");
+}
+
+main.main>section.main-section-first>div.first-image>div.content{
+    background:linear-gradient(rgba(0, 0, 0, 0.489), rgba(0, 0, 0, 0.469));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius-sm);
+}
+
+main.main>section.main-section-first>div.first-image>div.content>h2.title{
+    color: var(--color-text-light);
+    border: 1px solid var(--color-text-light);
+    padding: var(--space-xs);
+}

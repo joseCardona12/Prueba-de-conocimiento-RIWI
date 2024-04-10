@@ -1,0 +1,59 @@
+/*section third gallery*/
+
+/*Gallery */
+
+/*third title*/
+
+main.main>section.main-section-third>div.third-title{
+    margin-bottom: var(--space-md);
+}
+/* third content*/
+main.main>section.main-section-third>div.third-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: var(--space-sm);
+}
+
+/* third content iamges */
+main.main>section.main-section-third>div.third-content>div.content-image{
+    width: 100%;
+    height: 100%;
+}
+
+/* third content images image*/
+main.main>section.main-section-third>div.third-content>div.content-image:nth-child(1){
+    grid-row: span 3;
+}
+main.main>section.main-section-third>div.third-content>div.content-image:nth-child(2){
+    grid-row: span 2;
+}
+
+main.main>section.main-section-third>div.third-content>div.content-image:nth-child(3){
+    grid-column: span 2;
+}
+
+main.main>section.main-section-third>div.third-content>div.content-image:nth-child(5){
+    grid-row: span 2;
+}
+
+main.main>section.main-section-third>div.third-content>div.content-image:nth-child(6){
+    grid-column: span 2;
+}
+
+main.main>section.main-section-third>div.third-content>div.content-image>img.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: var(--border-radius-sm);
+    transition: transform .4s ease,
+                opacity .4s ease;
+}
+
+
+main.main>section.main-section-third>div.third-content>div.content-image>img.image:hover{
+    transform: scale(1.02);
+    opacity: .7;
+    cursor: pointer;
+}

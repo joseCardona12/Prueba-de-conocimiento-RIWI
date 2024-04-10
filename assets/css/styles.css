@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    /* outline: 1px solid red; */
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+/* Root */
+
+:root {
+    /* Colors */
+    --color-primary: #4845D2;
+    --color-secondary: #ff5a5f;
+    --color-text: #333;
+    --color-text-light: #f4f4f4;
+    --primary-light: #ebebfa;
+    --second-light:#f2fbff;
+    /* Fonts */
+    --font-primary: "Lato", sans-serif;
+    --font-secondary: "Roboto", sans-serif;
+    /* Spaces */
+    --space-xxs: 5px;
+    --space-xs: 10px;
+    --space-sm: 15px;
+    --space-md: 20px;
+    --space-lg: 30px;
+    --space-xl: 40px;
+    /* Box Shadows */
+    --shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-dark: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Border-radius */
+    --border-radius-sm: 8px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 12px;
+}
+
+/* Globals */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-secondary);
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Layout */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+/* Utilities */
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+/* Write your CSS code here */
+
+header.header,
+main.main>section.main-section-third,
+footer.footer{
+    padding: var(--space-md) var(--space-xl);
+}
